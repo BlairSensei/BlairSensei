@@ -1,0 +1,13 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  }
+
+  @media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+p {
+    font-size: 18px;
+}
