@@ -11,3 +11,11 @@ body {
 p {
     font-size: 17px;
 }
+
+li {
+	font-size: 17px;
+}
+
+.next-steps {
+	padding-bottom: 30px;
+}
