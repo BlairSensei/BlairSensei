@@ -207,6 +207,7 @@ a.active,a:active,a:focus,a:hover {
 
 header {
   background-image: url(../images/header-bg.jpg);
+  background-color: #000;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
