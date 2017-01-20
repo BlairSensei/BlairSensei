@@ -97,6 +97,7 @@ fieldset[disabled] .btn-primary.active {
   border-color: #1B1924;
 }
 .btn-primary .badge {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #1B1924;
   background-color: white;
 }
