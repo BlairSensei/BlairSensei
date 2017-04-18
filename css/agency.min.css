@@ -170,7 +170,7 @@ a.active,a:active,a:focus,a:hover {
   padding-top: 54px;
   }
   .intro-text {
-    padding-top: 100px;
+    padding-top: 150px;
   }
 }
 
@@ -216,6 +216,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
+  height:100vh;
   color: #fff;
 }
 

@@ -231,13 +231,15 @@ header {
   background-image: url('../images/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  background-position: relative;
+  -webkit-background-size: relative;
+  -moz-background-size: relative;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
+  height: 100vh;
   color: white;
+
 }
 header .intro-text {
   padding-top: 250px;
