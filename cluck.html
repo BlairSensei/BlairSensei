@@ -1,296 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="" name="description">
-  <meta content="" name="author">
-  <title>Blair the Designer</title><!-- Bootstrap Core CSS -->
-  <link rel="icon" type="image/png" href="images/fav.png">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type=
-          "text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type=
-          'text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel=
-          'stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet'
-        type='text/css'><!-- Theme CSS -->
-  <link href="css/agency.min.css" rel="stylesheet">
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
-<body class="index" id="page-top">
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top" id="mainNav">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header page-scroll">
-      <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle=
-              "collapse" type="button"><span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i></button>
-      <a href="index.html"><img alt="" class="img-responsive img-hover" src=
-            "images/b_logo.svg"></a>
-    </div><!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-          <li>
-            <a href="index.html#about">About</a>
-          </li>
-          <li>
-            <a href="index.html#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="index.html#contact">Contact</a>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav><!-- Contact Section -->
+  <head>
+    <title>blair the designer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script>
+      function toggleDarkMode() {
+         var body = document.body;
+         body.classList.toggle("dark");
+      }
+
+      $(document).ready(()=>{
+        $("#content").load("./pages/test.html");
+      });
+    </script>
+  </head>
+  <body>
+    <header><div class="container">
+      <div class="row">
+        <div class="col-xs-3"><a href="index.html">blairthedesigner</a></div>
+        <div class="col-md-7 hidden-xs hidden-sm">
+          <a href="index.html#works"><h4>works</h4></a>
+          <a href="index.html#about"><h4>about</h4></a>
+        </div>
+        <div class="col-xs-9 col-md-2" style="text-align: right;">
+          <i class="fa fa-sun" onclick="toggleDarkMode()"></i>
+          <i class="fa fa-moon" onclick="toggleDarkMode()"></i>
+        </div>
+      </div>
+    </div></header>
+
   <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">cluck</h2>
-          <h3 class="section-subheading text-muted">iOS Application | Client Piece</h3>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">cluck</h2>
+        <h3 class="section-subheading text-muted">iOS Application | Client Piece</h3>
       </div>
     </div>
-  </section><!-- Info Section -->
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img alt="I Phone with the pocket OSH app shown on the screen." class="img-responsive"
-          src="images/0.0-cluck.jpg"><br>
-        </div>
-        <div class="col-md-6">
-          <p><b>Client:</b> OrbSense</p>
-          <p><b>Duration:</b> Three Week Sprint</p>
-          <p><b>Team:</b> <a href="https://www.linkedin.com/in/ameeta-dalvi" target="_blank">Ameeta
-          Dalvi</a> and <a href="https://www.linkedin.com/in/lewischrisj" target=
-          "_blank">Christopher J Lewis</a></p>
-          <p><b>My Role:</b> screener and interview script writing, interviews, affinity
-          diagramming, persona creation, sketching, storyboarding, wireframes, user interface
-          design, icon and illustration design, rapid prototyping, usability testing</p>
-          <p><b>Tools:</b> POP, Sketch, Invision, Omnigraffle, Illustrator</p><br>
-          <a class="btn btn-primary" href="https://invis.io/E38MX1969#/184792192_Cluck" target=
-          "_blank">Digital Prototype</a> <a class="btn btn-primary" href=
-          "https://marvelapp.com/4e34fha" target="_blank">Paper
-          Prototype</a>
-        </div>
+  </div>
+</section><!-- Info Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img alt="I Phone with the pocket OSH app shown on the screen." class="img-responsive"
+        src="images/0.0-cluck.jpg"><br>
+      </div>
+      <div class="col-md-6">
+        <p><b>Client:</b> OrbSense</p>
+        <p><b>Duration:</b> Three Week Sprint</p>
+        <p><b>Team:</b> <a href="https://www.linkedin.com/in/ameeta-dalvi" target="_blank">Ameeta
+        Dalvi</a> and <a href="https://www.linkedin.com/in/lewischrisj" target=
+        "_blank">Christopher J Lewis</a></p>
+        <p><b>My Role:</b> screener and interview script writing, interviews, affinity
+        diagramming, persona creation, sketching, storyboarding, wireframes, user interface
+        design, icon and illustration design, rapid prototyping, usability testing</p>
+        <p><b>Tools:</b> POP, Sketch, Invision, Omnigraffle, Illustrator</p><br>
+        <a class="btn btn-primary" href="https://invis.io/E38MX1969#/184792192_Cluck" target=
+        "_blank">Digital Prototype</a> <a class="btn btn-primary" href=
+        "https://marvelapp.com/4e34fha" target="_blank">Paper
+        Prototype</a>
       </div>
     </div>
-  </section><!-- Portfolio Grid Section -->
-  <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">The Challenge</h2>
-        </div>
-        <div class="col-sm-6">
-          <p>OrbSense is a technology startup specializing in IOT (Internet of Things) products.
-          Their first product, Cluck, is a smart kitchen timer that connects to a phone or tablet
-          application and helps people boil food. Cluck does a very good job of helping boil eggs,
-          OrbSense is looking to implement a number of new features including:</p><br>
-          <ul>
-            <li>Adding a pasta cooking feature with a way to search for different types of
-            pasta</li>
-            <li>Implementing a feedback system to the app that helps people improve their cooking
-            with Cluck</li>
-          </ul>
-        </div>
-        <div class="col-sm-6"><img alt="Cluck device on a kitchen counter." class="img-responsive"
-        src="images/cluck/cluck_egg.jpg"></div>
+  </div>
+</section><!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">The Challenge</h2>
       </div>
+      <div class="col-sm-6">
+        <p>OrbSense is a technology startup specializing in IOT (Internet of Things) products.
+        Their first product, Cluck, is a smart kitchen timer that connects to a phone or tablet
+        application and helps people boil food. Cluck does a very good job of helping boil eggs,
+        OrbSense is looking to implement a number of new features including:</p><br>
+        <ul>
+          <li>Adding a pasta cooking feature with a way to search for different types of
+          pasta</li>
+          <li>Implementing a feedback system to the app that helps people improve their cooking
+          with Cluck</li>
+        </ul>
+      </div>
+      <div class="col-sm-6"><img alt="Cluck device on a kitchen counter." class="img-responsive"
+      src="images/cluck/cluck_egg.jpg"></div>
     </div>
-  </section><!-- Challenge Section -->
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">The Approach</h2>
-        </div>
-        <div class="col-sm-6">
-          <h3>Research</h3>
-          <p>First, my team did organizational and domain research. While there are many kitchen
-          devices that help people with timing and temperature measurement, Cluck is the only smart
-          device that can be put into a pot to measure water temperature while boiling
-          foods.</p><br>
-          <p>From the 25 interview screeners we sent out, 17 interview candidates were found. From
-          those interviews, the design team and I made an affinity diagram to find common trends in
-          the data. That data was then used to make the persona we would be designing the app
-          for.</p><br>
-        </div>
-        <div class="col-sm-6">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src=
-            "https://www.youtube.com/embed/iFXBI5NguYk"></iframe>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <h3>Persona</h3>
-          <p>Caleb Brown, the primary persona, was made from our interview data and affinity
-          diagraming.</p><img alt="Photograph and information about the primary persona, Caleb."
-          class="img-responsive" src="images/cluck/cluck_per.jpg">
-          <h3>Scenario</h3>
-          <p>Next I created a scenario for Caleb. This shows the problems he is currently having
-          with his pasta cooking process, which I later illustrated.</p><img alt=
-          "Storyboard illustrating the scenario." class="img-responsive" src=
-          "images/cluck/cluck_sb01.jpg">
-          <img alt="Storyboard illustrating the scenario." class="img-responsive" src=
-          "images/cluck/cluck_sb02.jpg">
+  </div>
+</section><!-- Challenge Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">The Approach</h2>
+      </div>
+      <div class="col-sm-6">
+        <h3>Research</h3>
+        <p>First, my team did organizational and domain research. While there are many kitchen
+        devices that help people with timing and temperature measurement, Cluck is the only smart
+        device that can be put into a pot to measure water temperature while boiling
+        foods.</p><br>
+        <p>From the 25 interview screeners we sent out, 17 interview candidates were found. From
+        those interviews, the design team and I made an affinity diagram to find common trends in
+        the data. That data was then used to make the persona we would be designing the app
+        for.</p><br>
+      </div>
+      <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src=
+          "https://www.youtube.com/embed/iFXBI5NguYk"></iframe>
         </div>
       </div>
+      <div class="col-md-12">
+        <h3>Persona</h3>
+        <p>Caleb Brown, the primary persona, was made from our interview data and affinity
+        diagraming.</p><img alt="Photograph and information about the primary persona, Caleb."
+        class="img-responsive" src="images/cluck/cluck_per.jpg">
+        <h3>Scenario</h3>
+        <p>Next I created a scenario for Caleb. This shows the problems he is currently having
+        with his pasta cooking process, which I later illustrated.</p><img alt=
+        "Storyboard illustrating the scenario." class="img-responsive" src=
+        "images/cluck/cluck_sb01.jpg">
+        <img alt="Storyboard illustrating the scenario." class="img-responsive" src=
+        "images/cluck/cluck_sb02.jpg">
+      </div>
     </div>
-  </section><!-- Portfolio Grid Section -->
-  <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">The Solution</h2>
-        </div>
-        <div class="col-lg-12">
-          <h3>The Pasta Problem</h3>
-          <p>One of the largest challenges of this project was finding a way to sort pastas in a
-          way that users can easily understand. The number of different types of pasta is almost
-          limitless. We conducted a card sorting exercise to help us see how users thought pastas
-          would be sorted. From our findings, we found that most people sorted pasta by shape and
-          size. While this sounds like a simple solution, the cook times of pastas with similar
-          shapes can vary wildly. Two ways of finding pasta cook times were made to better server
-          the needs of the user.</p>
-          <ul>
-            <li>searchable pasta list sorted by pasta shapes and sizes</li>
-            <li>barcode scanner that allows users to quickly get cook times from a product
-            database</li>
-          </ul>
-        </div>
-        <div class="col-lg-12"><img alt="Chart of the pasta grouping card sort data." class=
-        "img-responsive" src="images/cluck/cluck_pasta.jpg"></div>
-
+  </div>
+</section><!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">The Solution</h2>
+      </div>
       <div class="col-lg-12">
-          <h3>UI and Prototype</h3>
-          <p>During the three week sprint, the user interface went through multiple rounds of iterations based on user testing. The team worked
-          together on the initial design. These sketches were then made into a paper prototype that was put into
-          POP for user testing.
-          </p>
-          </div>
-          <div class="col-lg-6"><img alt=" " class="img-responsive" src="images/cluck/cluck_sk01.jpg">
-          </div>
-          <div class="col-lg-6"><img alt=" " class="img-responsive" src="images/cluck/cluck_sk01.jpg">
-          <br>
-          <br>
-          </div>
+        <h3>The Pasta Problem</h3>
+        <p>One of the largest challenges of this project was finding a way to sort pastas in a
+        way that users can easily understand. The number of different types of pasta is almost
+        limitless. We conducted a card sorting exercise to help us see how users thought pastas
+        would be sorted. From our findings, we found that most people sorted pasta by shape and
+        size. While this sounds like a simple solution, the cook times of pastas with similar
+        shapes can vary wildly. Two ways of finding pasta cook times were made to better server
+        the needs of the user.</p>
+        <ul>
+          <li>searchable pasta list sorted by pasta shapes and sizes</li>
+          <li>barcode scanner that allows users to quickly get cook times from a product
+          database</li>
+        </ul>
+      </div>
+      <div class="col-lg-12"><img alt="Chart of the pasta grouping card sort data." class=
+      "img-responsive" src="images/cluck/cluck_pasta.jpg"></div>
 
+    <div class="col-lg-12">
+        <h3>UI and Prototype</h3>
+        <p>During the three week sprint, the user interface went through multiple rounds of iterations based on user testing. The team worked
+        together on the initial design. These sketches were then made into a paper prototype that was put into
+        POP for user testing.
+        </p>
+        </div>
+        <div class="col-lg-6"><img alt=" " class="img-responsive" src="images/cluck/cluck_sk01.jpg">
+        </div>
+        <div class="col-lg-6"><img alt=" " class="img-responsive" src="images/cluck/cluck_sk01.jpg">
+        <br>
+        <br>
+        </div>
+
+    <div class="col-lg-12">
+      <p>
+        Once testing of the first prototype was complete, a digital prototype made using Illustrator, Sketch and Invision. I was in charge of making most of the graphics, icons, and making the prototype’s visuals consistent throughout all pages.</p>
+      </div>
+
+        <div class="col-lg-12"><img alt=" " class="img-responsive" src="images/cluck/cluck_pro01.jpg"></div>
+        <br>
+        <br>
+        <div class="col-lg-12"><img alt=" " class="img-responsive" src="images/cluck/cluck_pro02.jpg"></div>
+        <br>
+        <br>
       <div class="col-lg-12">
-        <p>
-          Once testing of the first prototype was complete, a digital prototype made using Illustrator, Sketch and Invision. I was in charge of making most of the graphics, icons, and making the prototype’s visuals consistent throughout all pages.</p>
-        </div>
 
-          <div class="col-lg-12"><img alt=" " class="img-responsive" src="images/cluck/cluck_pro01.jpg"></div>
-          <br>
-          <br>
-          <div class="col-lg-12"><img alt=" " class="img-responsive" src="images/cluck/cluck_pro02.jpg"></div>
-          <br>
-          <br>
-        <div class="col-lg-12">
+        <h3>Testing and User Needs Findings</h3>
+        <p>Three rounds of testing were done for this project. These tests were done on the the
+        current app using the cluck device, the paper prototype and the high-fidelity prototype. The
+        number of tests done are as follows:</p><br>
+        <ul>
+          <li>cluck device with the &nbsp;existing app - 7 tests</li>
+          <li>Paper prototype - 10 tests</li>
+          <li>High-Fidelity prototype - 12 tests</li>
+        </ul><br>
+        <p>In these tests, we tried to solve for a number of key areas that continually arose:</p>
+        <ul><br>
+        <li>voice and tone: After seeing the cluck device, users felt there was a disconnect between the look of the device and the feel of the current app. Making the app more light and friendly was something many users wanted. We found that users were more likely to try using Cluck if the experience of using the app was more fun and personal.</li>
+        <li>clear instructions in a timely manner: In the existing application, all cooking instructions are given before the cooking process begins. Users wanted the instructions to be given at the time they needed to do each step. This allowed the users to focus on what they needed to do while not needing to memorize the entire process.</li>
+        </ul>
+        </p>
+      </div><br>
+      <div class="col-lg-12">
+        <h3>Caleb's Solution</h3>
+      </div>
+      <div class="col-lg-12"><img alt="" class="img-responsive" src=
+      "images/cluck/cluck_sb03.jpg"></div>
+    </div>
+  </div>
+</section><!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Next Steps</h2>
+      </div>
+      <div class="col-sm-12">
+        <p>Further usability testing will be needed once the new app changes are implemented.</p>
+        <p>Further development of the feedback system that helps the app improve is necessary.
+        Having the app be able to learn and/or improve is very important to the people we have
+        tested.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-          <h3>Testing and User Needs Findings</h3>
-          <p>Three rounds of testing were done for this project. These tests were done on the the
-          current app using the cluck device, the paper prototype and the high-fidelity prototype. The
-          number of tests done are as follows:</p><br>
-          <ul>
-            <li>cluck device with the &nbsp;existing app - 7 tests</li>
-            <li>Paper prototype - 10 tests</li>
-            <li>High-Fidelity prototype - 12 tests</li>
-          </ul><br>
-          <p>In these tests, we tried to solve for a number of key areas that continually arose:</p>
-          <ul><br>
-          <li>voice and tone: After seeing the cluck device, users felt there was a disconnect between the look of the device and the feel of the current app. Making the app more light and friendly was something many users wanted. We found that users were more likely to try using Cluck if the experience of using the app was more fun and personal.</li>
-          <li>clear instructions in a timely manner: In the existing application, all cooking instructions are given before the cooking process begins. Users wanted the instructions to be given at the time they needed to do each step. This allowed the users to focus on what they needed to do while not needing to memorize the entire process.</li>
-          </ul>
-          </p>
-        </div><br>
-        <div class="col-lg-12">
-          <h3>Caleb's Solution</h3>
-        </div>
-        <div class="col-lg-12"><img alt="" class="img-responsive" src=
-        "images/cluck/cluck_sb03.jpg"></div>
-      </div>
-    </div>
-  </section><!-- Portfolio Grid Section -->
-  <section id="portfolio">
-    <div class="container">
+    <footer><div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Next Steps</h2>
-        </div>
-        <div class="col-sm-12">
-          <p>Further usability testing will be needed once the new app changes are implemented.</p>
-          <p>Further development of the feedback system that helps the app improve is necessary.
-          Having the app be able to learn and/or improve is very important to the people we have
-          tested.</p>
+        <div class="col-sm-4"><h6>© Blair Warner 2020</h6></div>
+        <div class="col-sm-4" style="text-align: center;">
+          <a href="https://www.linkedin.com/in/blairdesign"target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/blairsensei/"target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
-    </div>
-  </section><!-- Footer Section -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Blair Warner 2017</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-unstyled list-inline list-social-icons">
-            <li>
-              <a href="https://www.linkedin.com/in/blairdesign" target="_blank"><i class=
-              "fa fa-linkedin-square fa-2x"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/blairsensei/" target="_blank"><i class=
-              "fa fa-instagram fa-2x"></i></a>
-            </li>
-            <li>
-              <!-- Small modal -->
-              <i class="fa fa-rebel fa-2x text-primary" data-target=".bs-example-modal-sm"
-              data-toggle="modal"></i>
-              <div aria-labelledby="mySmallModalLabel" class="modal fade bs-example-modal-sm" role=
-              "dialog" tabindex="-1">
-                <div class="modal-dialog" role="document"><img class="img-responsive" src=
-                "http://i.imgur.com/Fpkz2Va.gif"></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4"></div>
-      </div>
-    </div>
-  </footer><!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-          crossorigin="anonymous"></script>
-  </script> <!-- Bootstrap Core JavaScript -->
-   
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- Plugin JavaScript -->
-   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
-  </script> <!-- Contact Form JavaScript -->
-   
-  <script src="js/jqBootstrapValidation.js">
-  </script> 
-  <script src="js/contact_me.js">
-  </script> <!-- Theme JavaScript -->
-   
-  <script src="js/agency.min.js">
-  </script>
-</body>
+    </div></footer>
+  </body>
 </html>
