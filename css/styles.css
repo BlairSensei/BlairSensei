@@ -27,7 +27,7 @@ body {
 
 
   html { font-size: 62.5%; }
-  body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+  body { font-size: 1.4rem; } /* =14px */
 
   h1 {font-family: var(--font); font-weight: 600; font-size: 4.6rem; margin: 0 0 0;color:  var(--c8);}
   h2 {font-family: var(--font2); font-weight: 400; font-size: 3.6rem; margin: 0 0 .75rem;color: var(--cb);}
