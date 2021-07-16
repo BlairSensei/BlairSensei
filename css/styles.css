@@ -24,19 +24,15 @@ body {
 }
 
 /* TEXT TAG GENERAL STYLES */
-
-
-  html { font-size: 62.5%; }
-  body { font-size: 1.4rem; } /* =14px */
-
-  h1 {font-family: var(--font); font-weight: 600; font-size: 4.6rem; margin: 0 0 0;color:  var(--c8);}
-  h2 {font-family: var(--font2); font-weight: 400; font-size: 3.6rem; margin: 0 0 .75rem;color: var(--cb);}
-  h3 {font-family: var(--font); font-weight: 600; font-size: 2.8rem; margin: 0;}
-  h4 {font-family: var(--font); font-weight: 400; font-size: 1.8rem; margin: 0 0 1rem;}
-  h5 {font-family: var(--font2); font-weight: 400; font-size: 1.4rem; margin: .5rem 0 2rem; opacity: 0.4;}
-  h6 {font-family: var(--font); font-weight: 400; font-size: 1.6rem; margin: 0;}
-  p {font-family: var(--font2); margin: 0; font-weight: 200; font-size: 1.8rem; line-height: 170%;}
-
+  h1 {font-family: var(--font); font-weight: 600; font-size: 46px; margin: 0 0 0;color:  var(--c8);}
+  h2 {font-family: var(--font2); font-weight: 400; font-size: 36px; margin: 0 0 .75rem;color: var(--cb);}
+  h3 {font-family: var(--font); font-weight: 600; font-size: 28px; margin: 0;}
+  h4 {font-family: var(--font); font-weight: 400; font-size: 18px; margin: 0 0 1rem;}
+  h5 {font-family: var(--font2); font-weight: 400; font-size: 14px; margin: .5rem 0 2rem; opacity: 0.4;}
+  h6 {font-family: var(--font); font-weight: 400; font-size: 16px; margin: 0;}
+  p {font-family: var(--font2); margin: 0; font-weight: 200; font-size: 18px; line-height: 170%;}
+  a {color: var(--c8); text-decoration: none; cursor: pointer;}
+  a:hover {color: var(--ct); text-decoration: none;}
 
 header {
   background-color: var(--c1);
