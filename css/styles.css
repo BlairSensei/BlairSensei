@@ -35,7 +35,7 @@ body {
   h4 {font-family: var(--font); font-weight: 400; font-size: 1.8rem; margin: 0 0 1rem;}
   h5 {font-family: var(--font2); font-weight: 400; font-size: 1.4rem; margin: .5rem 0 2rem; opacity: 0.4;}
   h6 {font-family: var(--font); font-weight: 400; font-size: 1.6rem; margin: 0;}
-  p {font-family: var(--font2); margin: 0; font-weight: 200; 18px; font-size: 1.8rem; line-height: 170%;}
+  p {font-family: var(--font2); margin: 0; font-weight: 200; font-size: 1.8rem; line-height: 170%;}
 
 
 header {
