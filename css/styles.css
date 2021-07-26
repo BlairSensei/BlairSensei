@@ -4,6 +4,7 @@
 :root {
   --c1: #FFFFFF;
   --c2: #fafafa;
+  --c3: #7d7d7d;
   --c8: #000000;
   --cb: #dedede;
   --ct: #0244bf;
@@ -24,20 +25,19 @@ body {
 }
 
 /* TEXT TAG GENERAL STYLES */
-  h1 {font-family: var(--font); font-weight: 600; font-size: 46px; margin: 0 0 0; color:  var(--c8);}
-  h2 {font-family: var(--font2); font-weight: 400; font-size: 36px; margin: 0 0 .75rem; color: var(--cb);}
-  h3 {font-family: var(--font); font-weight: 600; font-size: 28px; margin: 0;}
+  h1 {font-family: var(--font); font-weight: 600; font-size: 46px; margin: 0 0 0; color: var(--c8);}
+  h2 {font-family: var(--font2); font-weight: 400; font-size: 28px; margin: 0 0 .75rem; color: var(--c3);}
+  h3 {font-family: var(--font); font-weight: 600; font-size: 28px; margin: 0rem 0 0;}
   h4 {font-family: var(--font); font-weight: 400; font-size: 18px; margin: 0 0 1rem;}
   h5 {font-family: var(--font2); font-weight: 400; font-size: 14px; margin: .5rem 0 2rem; opacity: 0.4;}
   h6 {font-family: var(--font); font-weight: 400; font-size: 16px; margin: 0;}
-  p {font-family: var(--font2); margin: 0; font-weight: 200; font-size: 18px; line-height: 170%;}
-  a {color: var(--c8); text-decoration: none; cursor: pointer;}
-  a:hover {color: var(--ct); text-decoration: none;}
+  p {font-family: var(--font2); margin: 0; font-weight: 200; font-size: 18px; line-height: 180%;}
+  a {font-family: var(--font); color: var(--c8); font-weight: 400;  font-size: 20px;  line-height: 180%; text-decoration: none; cursor: pointer;}
+  a:hover {font-family: var(--font); color: var(--ct); font-weight: 400;  font-size: 20px;  line-height: 180%; text-decoration: none;}
 
 
 header {
   background-color: var(--c1);
-  color: var(--c8);
   font-size: 1.5rem;
   position: fixed;
   width: 100%;
@@ -50,9 +50,8 @@ header h4{
   display: inline;
 }
 
-header a {
-  color: var(--c8);
-}
+header a {font-family: var(--font); color: var(--c8); font-weight: 400;  font-size: 22px; text-decoration: none; cursor: pointer;}
+header a:hover  {font-family: var(--font); color: var(--ct); font-weight: 400;  font-size: 22px; text-decoration: none;}
 header a:hover {color: var(--ct);}
 header i {cursor: pointer; transition: transform 0.5s;}
 header i:hover {transform: scale(1.1);color: var(--ct);}
@@ -83,7 +82,7 @@ color: var(--c8);
   text-align: center;
   /*background-color: var(--ct); */
   color: var(--c8);
-  padding: 4.75rem 0 1.5rem;
+  padding: 2.75rem 0 0rem;
   margin: 0 0 2rem;
   box-shadow: 0 0 .5rem #dddddd;
 }
@@ -93,19 +92,15 @@ color: var(--c8);
   padding: 10rem 0;
 }
 #works {
-  padding: 7.5rem 0 0;
+  padding: 5.5rem 0 0;
   color: var(--c8);
   /*background-color: var(--c1);*/
 }
 #works .row {}
 #works .row > div {}
 #works .row > div > div {
-  background-color: var(--c2);
-  padding: 1rem 1.4rem;
-  border-radius:5px;
-  border: 1px solid;
   border-color: var(--c1);
-  height: 13rem;
+  height:11rem;
   margin: 10px 0 10px;
   box-shadow: 0 0 .5rem #dddddd;
 }
@@ -131,7 +126,7 @@ color: var(--c8);
 #portfolio {
   /*background-color: var(--c1);*/
   color: var(--c8);
-  padding: 0 0 2rem;
+  padding: 2rem 0 1rem;
 }
 #title {
   padding: 0 0 .5rem;
