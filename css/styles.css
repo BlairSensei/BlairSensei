@@ -133,15 +133,17 @@ color: var(--c8);
 }
 footer {
   /*background-color: var(--c1);*/
+  background-color: var(--c1);
+
   color: var(--c8);
   font-size: 1rem;
-  padding: 2rem 0 .25rem;
+  padding: 0.5rem 0 0.5rem;
 }
 footer i {
   color: var(--c8);
   cursor: pointer;
   transition: transform 0.5s;
-  padding: 0.5rem 0.5rem;
+  padding: 0 0.5rem 0.5rem;
 }
 footer i:hover {
   transform: scale(1.0); color: var(--ct);
