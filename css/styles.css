@@ -36,6 +36,10 @@ body {
   a {font-family: var(--font); color: var(--c8); font-weight: 600;  font-size: 20px;  line-height: 180%; text-decoration: none; cursor: pointer;}
   a:hover {font-family: var(--font); color: var(--ct); font-weight: 600;  font-size: 20px;  line-height: 180%; text-decoration: none;}
 
+  ul {
+    font-family: var(--font); font-weight: 600; font-size: 20px; margin: 0;
+
+  }
 
 header {
   background-color: var(--c1);
