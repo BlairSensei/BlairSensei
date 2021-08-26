@@ -26,7 +26,7 @@ body {
 }
 
 /* TEXT TAG GENERAL STYLES */
-  h1 {font-family: var(--font); font-weight: 600; font-size: 89px; margin: 0 0 1rem; color: var(--c8);}
+  h1 {font-family: var(--font); font-weight: 600; font-size: 89px; margin: 0 0 1rem; color:;}
   h2 {font-family: var(--font); font-weight: 200; font-size: 55px; margin: 0 0 0; color: var(--c8);}
   h3 {font-family: var(--font); font-weight: 600; font-size: 38px; margin: 0rem 0 0;}
   h4 {font-family: var(--font); font-weight: 600; font-size: 30px; margin: 0; color: var(--c3);}
@@ -173,3 +173,35 @@ footer i:hover {
   -o-transition: color 300ms linear;
   -ms-transition: color 300ms linear;
   transition: color 300ms linear;}
+
+
+  .slide-in-elliptic-left-fwd {
+  	animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  @keyframes slide-in-elliptic-left-fwd {
+    0% {
+      transform: translateX(-800px) rotateY(30deg) scale(0);
+      transform-origin: -100% 50%;
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) rotateY(0) scale(1);
+      transform-origin: 1800px 50%;
+      opacity: 1;
+    }
+  }
+
+
+  .color-change-2x {
+  	animation: color-change-2x 6s linear infinite alternate both;
+    display:inline;
+  }
+
+  @keyframes color-change-2x {
+    0% {
+      color: #19dcea;
+    }
+    100% {
+      color: #b22cff;
+    }
+  }
