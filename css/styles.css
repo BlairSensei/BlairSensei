@@ -12,21 +12,24 @@
   --font2: 'Noto Serif JP', serif;
 }
 
-body.dark {
-  --c1: #000000;
-  --c8: #FFFFFF;
-}
-
 html {scroll-behavior: smooth;}
 
 body {
   font-family: var(--font);
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(247,248,255,1) 94%, rgba(240,246,255,1) 100%);
+  background: var(--c1);
 }
 
+body.dark {
+  --c1: #000000;
+  --c2: #131313;
+  --c3: #5a5a5a;
+  --c8: #FFFFFF;
+  --cb: #242424;
+}
+
+
 /* TEXT TAG GENERAL STYLES */
-  h1 {font-family: var(--font); font-weight: 600; font-size: 89px; margin: 0 0 1rem; color:;}
+  h1 {font-family: var(--font); font-weight: 600; font-size: 89px; margin: 0 0 1rem; color: var(--c8);}
   h2 {font-family: var(--font); font-weight: 200; font-size: 55px; margin: 0 0 0; color: var(--c8);}
   h3 {font-family: var(--font); font-weight: 600; font-size: 38px; margin: 0rem 0 0;}
   h4 {font-family: var(--font); font-weight: 600; font-size: 30px; margin: 0; color: var(--c3);}
@@ -60,8 +63,8 @@ header h4{
 header a {font-family: var(--font); color: var(--c8); font-weight: 600;  font-size: 22px; text-decoration: none; cursor: pointer;}
 header a:hover  {font-family: var(--font); color: var(--ct); font-weight: 600;  font-size: 22px; text-decoration: none;}
 header a:hover {color: var(--ct);}
-header i {cursor: pointer; transition: transform 0.5s;}
-header i:hover {transform: scale(1.1);color: var(--ct);}
+header i {cursor: pointer; transition: transform 0.5s; color: var(--cb);}
+header i:hover {color: var(--ct);}
 .dark header .fa-sun {display: none;}
 header .fa-moon {display: none;}
 .dark header .fa-moon {display: inline-block;}
@@ -88,7 +91,7 @@ color: var(--c8);
 #top {
   text-align: center;
   /*background-color: var(--ct); */
-  color: var(--c8);
+
   padding: 2.75rem 0 0rem;
   margin: 0 0 2rem;
   box-shadow: 0 0 .5rem #dddddd;
@@ -160,7 +163,7 @@ footer {
   font-size: 20px;
   padding: 0.5rem 0 0.5rem;
 }
-footer i {
+i {
   color: var(--c8);
   cursor: pointer;
   transition: transform 0.5s;

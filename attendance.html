@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./images/fontawesome/css/all.min.css">
     <link rel="icon" type="image/png" href="images/fav.png">
+    <script>
+      function toggleDarkMode() {
+         var body = document.body;
+         body.classList.toggle("dark");
+      }
+    </script>
   </head>
   <body>
     <header><div class="container">
@@ -14,6 +20,10 @@
         <div class="col"><a href="index.html" onclick="loadIndex()">-blair the designer-</a></div>
         <div class="col" style="text-align: right;">
           <a href="images/blairwarner_resume.pdf" target="_blank">Resume</a>
+          <!--
+          <i class="fa fa-sun" onclick="toggleDarkMode()"></i>
+          <i class="fa fa-moon" onclick="toggleDarkMode()"></i>
+          -->
         </div>
       </div>
     </div></header>
