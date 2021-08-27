@@ -88,7 +88,8 @@ color: var(--c8);
 
 
 .icon {
-  display: inline-block;
+  display: block;
+  margin: 12px 0 0;
   width: 150px;
   height: 21px;
   background-size: cover;
