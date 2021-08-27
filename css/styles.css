@@ -85,6 +85,24 @@ color: var(--c8);
     -ms-transition: color 300ms linear;
     transition: color 300ms linear;
 }
+
+
+.icon {
+  display: inline-block;
+  width: 150px;
+  height: 21px;
+  background-size: cover;
+  }
+.icon-logo {
+  background-image: url(http://blairthedesigner.com/images/logo.svg);
+}
+.icon-logo:hover,
+.icon-logo:focus {
+  filter: invert(17%) sepia(84%) saturate(2414%) hue-rotate(211deg) brightness(108%) contrast(113%);
+}
+
+
+
  a:hover {
     /*background-color: #ffffff;*/
 }
