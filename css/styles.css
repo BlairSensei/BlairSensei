@@ -30,19 +30,19 @@ body.dark {
 
 /* TEXT TAG GENERAL STYLES */
   h1 {font-family: var(--font); font-weight: 600; font-size: 89px; margin: 0 0 0; color: var(--c8);}
-  h2 {font-family: var(--font); font-weight: 200; font-size: 55px; margin: 0 0 0; color: var(--c8);}
+  h2 {font-family: var(--font); font-weight: 300; font-size: 45px; margin: 0 0 0; color: var(--c8);}
   h3 {font-family: var(--font); font-weight: 600; font-size: 38px; margin: 0rem 0 0;}
   h4 {font-family: var(--font); font-weight: 600; font-size: 28px; margin: 0; color: var(--c3);}
   h5 {font-family: var(--font); font-weight: 400; font-size: 24px; margin: .5rem 0 2rem; opacity: 0.4;}
   h6 {font-family: var(--font); font-weight: 400; font-size: 20px; margin: 0; color: var(--c8);}
-  p {font-family: var(--font); margin: 0; font-weight: 200; font-size: 22px; line-height: 160%; color: var(--c8);}
+  p {font-family: var(--font); margin: 0; font-weight: 300; font-size: 22px; line-height: 160%; color: var(--c8);}
   a {font-family: var(--font); color: var(--ct); font-weight: 600; line-height: 180%; text-decoration: none; cursor: pointer;}
   a:hover {font-family: var(--font); color: var(--ct); font-weight: 600; line-height: 180%; text-decoration: none;}
 
   ul {
     font-family: var(--font);
     font-weight: 200;
-    font-size: 30px;
+    font-size: 24px;
     margin: 0;
   }
 
@@ -85,7 +85,6 @@ color: var(--c8);
     -ms-transition: color 300ms linear;
     transition: color 300ms linear;
 }
-
 
 .icon {
   display: block;
