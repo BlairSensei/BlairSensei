@@ -142,6 +142,7 @@ color: var(--c8);
   border-radius:10px;
 }
 #aboutcontent {
+  word-wrap: break-word;
 }
 #about {
   padding: 3rem 0 2rem;
