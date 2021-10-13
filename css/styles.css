@@ -29,8 +29,8 @@ body.dark {
 
 
 /* TEXT TAG GENERAL STYLES */
-  h1 {font-family: var(--font); font-weight: 600; font-size: 89px; margin: 0 0 0; color: var(--c8);}
-  h2 {font-family: var(--font); font-weight: 300; font-size: 45px; margin: 0 0 0; color: var(--c8);}
+  h1 {font-family: var(--font); font-weight: 600; font-size: 75px; margin: 0 0 0; color: var(--c8);}
+  h2 {font-family: var(--font); font-weight: 300; font-size: 42px; margin: 0 0 0; color: var(--c8);}
   h3 {font-family: var(--font); font-weight: 600; font-size: 38px; margin: 0rem 0 0;}
   h4 {font-family: var(--font); font-weight: 400; font-size: 28px; line-height: 160%; margin: 0; color: var(--c8);}
   h5 {font-family: var(--font); font-weight: 400; font-size: 24px; margin: .5rem 0 2rem;}
@@ -153,18 +153,22 @@ color: var(--c8);
   padding: 3rem 0 2rem;
 }
 #hero {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 
 }
-
 #herobox {
-
-  margin: 0;
-position:relative;
-  top: 30%;
-
-
+}
+#scroll {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 #next {
@@ -334,7 +338,8 @@ footer i:hover {
     width: 24px;
     border-radius: 14px;
     transform: none;
-    border: 2px solid var(--c3);
+    border: 2px solid var(--c1);
+    opacity: 0;
     top: 170px;
   }
 
@@ -343,12 +348,14 @@ footer i:hover {
     width: 2px;
     display: block;
     margin: 5px auto;
-    background: var(--c3);
+    background: var(--c1);
+    opacity: 0;
     position: relative;
 
     height: 4px;
     width: 4px;
-    border: 2px solid var(--c3);
+    border: 2px solid var(--c1);
+    opacity: 0;
     -webkit-border-radius: 8px;
             border-radius: 8px;
   }
